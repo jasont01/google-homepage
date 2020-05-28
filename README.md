@@ -18,18 +18,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is one of the first projects in the odin project's curriculum.
-The goal of this project is to get you to start thinking about how elements get placed on the page and roughly how they get styled and aligned.
-A link to the full description of the assignment can be found above.
-
+This is one of the first projects in the odin project's curriculum.<br />
+The goal of this project is to get you to start thinking about how elements get placed on the page and roughly how they get styled and aligned.<br />
+A link to the full description of the assignment can be found above.<br />
+<br />
 A live version of my solution can be found <a href="https://jasont01.github.io/google-homepage">here</a>
-
-<!-- CONTACT -->
-## Contact
-
-Jason Thompson - [@jasont01](https://twitter.com/jasont01)
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-url]: https://linkedin.com/in/jasont01
