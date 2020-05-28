@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100%;
+    margin: auto;
+}
+
+
+/* Nav */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0px 0px 0px 13px;
+    font-size: 13px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 0px 10px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar .nav-left {
+    flex: 1;
+}
+
+/* Search */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 53vh;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.search-container {
+    display: inline-flex;
+    position: relative;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 584px;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.search-container:hover {
+    box-shadow: 0 2px 4px 1px #d9d9d9;
+}
+
+.search-icon {
+    padding: 0.5rem;
+}
+
+.search-bar {
+    border: 0;
+    flex: 1;
+    width: 520px;
+}
+
+.mic {
+    width: 32px;
+    height: auto;
+    padding-right: 8px;
+}
+
+.search-buttons {
+    padding: 18px 0px 0px;
+}
+
+.search-buttons input {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+}
+
+.search-buttons input:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+/* Footer */
+
+footer a {
+    color: #5f6368;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    padding: 0px 20px;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 40px;
+    background-color: #f2f2f2;
+}
